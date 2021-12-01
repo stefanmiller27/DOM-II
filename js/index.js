@@ -1,7 +1,9 @@
+// Your code goes here
 
-
+//worked in study group amongst peers for this one dfound it harder than yesterdays project. content still way harder than unit 1, will get the hang of it for sprint challenge. also i submitted yesterdays project around midnight I hope that wasn't too late. Britney allowed me to submit by round then due to my work schedule
 
 const homeButton = document.querySelector('nav a:nth-of-type(1)');
+const aboutButton = document.querySelector('nav a:nth-of-type(2)');
 const welcomeH2 = document.querySelector('.intro h2');
 const navButtons = document.querySelectorAll('nav');
 const bus = document.querySelector('header img');
@@ -118,7 +120,7 @@ boatImg.addEventListener('mouseleave', function(e){
 
 
 signUpButtons.addEventListener('mouseover', function(e){
-    signUpButtons.target.style.backgroundColor = 'red';
+    signUpButtons.style.backgroundColor = 'white';
 });
 
 
@@ -129,4 +131,3 @@ document.addEventListener('DOMContentLoaded', function(e){
     }, 9000);
 })
 
-//feeling better
